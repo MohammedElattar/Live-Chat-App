@@ -1,0 +1,124 @@
+*::-webkit-scrollbar {
+  width: 7px;
+}
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+*::-webkit-scrollbar-thumb {
+  background: #aaa;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #3289c8;
+}
+
+.w-400 {
+  width: 400px;
+  /* width: 400px; */
+  margin: auto;
+}
+
+form > div {
+  flex-direction: column;
+}
+
+form > div img {
+  width: 80px;
+}
+
+form > div h1 {
+  width: 100%;
+}
+
+form button[type="submit"] {
+  margin: 10px 0;
+}
+
+.fs-xs {
+  font-size: 1.3rem;
+}
+
+.head {
+  width: 45% !important;
+}
+
+.info {
+  height: 143px;
+}
+
+.w-10 {
+  width: 16%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.no-messages {
+  text-align: center;
+}
+
+.no-messages i {
+  font-size: 5rem !important;
+}
+
+.no-messages p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.online {
+  background-color: #17cb17;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.chat-div {
+  width: 600px;
+}
+.userName {
+  font-size: 15px;
+  font-weight: bold;
+}
+.userName > div {
+  margin: 10px 0 0 0;
+  display: flex;
+}
+.userName > div p {
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+.chat-box {
+  margin: 6% auto 8% auto;
+  width: 90%;
+  overflow-y: auto;
+  max-height: 50vh;
+  /* width: 90%; */
+  /* margin: auto; */
+}
+small {
+  color: #bbb;
+  font-size: 0.7rem;
+  color: #444;
+  text-align: right;
+}
+.rtext {
+  width: 65%;
+  background: #f8fafa;
+  color: #444;
+  margin: 20px 0 0 0;
+}
+.ltext {
+  width: 65%;
+  background: #3289c8;
+  color: #fff;
+  margin: 16px 35% 0 0;
+}
+.ltext small {
+  color: #fff;
+}
+
+textarea {
+  resize: none;
+}
